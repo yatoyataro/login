@@ -5,6 +5,6 @@
 
         $data = "Username: $username, Password: $password\n";
 
-        file_put_contents('formdata.txt', $data, FILE_APPEND | LOCK_EX);
+        file_put_contents('data.txt', $data, FILE_APPEND | LOCK_EX);
     }
 ?>
